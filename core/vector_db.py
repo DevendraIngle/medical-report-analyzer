@@ -1,3 +1,7 @@
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules['pysqlite3']
+
 import chromadb
 from chromadb.utils.embedding_functions import OpenAIEmbeddingFunction
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -5,6 +9,7 @@ import streamlit as st
 import os
 import shutil
 import traceback # Import traceback to print full stack trace
+
 
 # Define the directory for persistent storage
 CHROMA_DB_PATH = "./chroma_db_data"
