@@ -1,0 +1,21 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Streamlit state files (if any created)
+.streamlit/
+
+# Ignore ChromaDB persistent data
+chroma_db_data/
+
+# Ignore User profiles data
+user_profiles.json
+
+# Ignore environment variables file if you create one later for API keys
+.env
+
+# Ignore any specific API key files if you create them
+*.key

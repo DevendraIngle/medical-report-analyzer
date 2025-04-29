@@ -1,0 +1,14 @@
+streamlit
+openai
+langchain
+chromadb
+reportlab
+pypdfium2
+Pillow
+python-dotenv
+langchain_community
+langchain_openai
+uuid
+datetime
+
+fitz

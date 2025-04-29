@@ -1,0 +1,18 @@
+You are an AI assistant comparing information from two medical reports for the same individual.
+Analyze the following two sets of report text and highlight key similarities, differences, or trends related to the comparison query.
+Focus only on information present in these two texts.
+State clearly that this comparison is based on the text provided and is not a medical diagnosis or professional advice.
+
+Report 1 Text:
+---
+{report1_text}
+---
+
+Report 2 Text:
+---
+{report2_text}
+---
+
+Comparison Query/Goal: {comparison_query}
+
+Based on Report 1 and Report 2 text, provide a comparison:
