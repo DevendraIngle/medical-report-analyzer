@@ -6,9 +6,6 @@ reportlab
 pypdfium2
 Pillow
 python-dotenv
-langchain_community
-langchain_openai
-uuid
-datetime
-
-fitz
+langchain-community  
+langchain-openai  
+pysqlite3-binary
